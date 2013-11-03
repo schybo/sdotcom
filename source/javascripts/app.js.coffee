@@ -15,9 +15,6 @@
 #= require "foundation/foundation.section"
 #= require "foundation/foundation.topbar"
 
-# Google Analytics
-= require "google_analytics"
-
 (($, window, undefined_) ->
   "use strict"
   $doc = $(document)
