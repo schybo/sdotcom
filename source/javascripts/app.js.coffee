@@ -1,11 +1,11 @@
-#= require "vendor/jquery"
+= require "vendor/jquery"
 
 # Foundation Javascript
-#= require "foundation/foundation"
+= require "foundation/foundation"
 #= require "foundation/foundation.alerts"
 #= require "foundation/foundation.clearing"
 #= require "foundation/foundation.cookie"
-#= require "foundation/foundation.dropdown"
+= require "foundation/foundation.dropdown"
 #= require "foundation/foundation.forms"
 #= require "foundation/foundation.joyride"
 #= require "foundation/foundation.magellan"
@@ -13,7 +13,10 @@
 #= require "foundation/foundation.placeholder"
 #= require "foundation/foundation.reveal"
 #= require "foundation/foundation.section"
-#= require "foundation/foundation.topbar"
+= require "foundation/foundation.topbar"
+
+# Google Analytics
+= require "_google_analytics"
 
 (($, window, undefined_) ->
   "use strict"

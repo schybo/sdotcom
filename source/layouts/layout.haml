@@ -28,23 +28,16 @@
     / Included CSS Files
     = stylesheet_link_tag "app"
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'
-    = javascript_include_tag "vendor/custom.modernizr.js"
+    = javascript_include_tag "vendor/custom.modernizr.js"  
 
   %body{:class => page_classes}
     %header
-    .row
-      .twelve.columns
-        %h2 Brent Scheibelhut
-        %p Designer. Hacker. Artist. Writer. Athlete.
-        %hr
+      /= render :partial => 'nav_bar'
+      = partial 'nav_bar'
     %section{:role => "main", :class => "main"}= yield
     %footer
     -# Application Javascript, safe to override
     = javascript_include_tag "app"
 
     -# Google Analytics
-    :javascript
-      var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-      (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-      g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-      s.parentNode.insertBefore(g,s)}(document,'script'));
+    = javascript_include_tag "google_analytics"
