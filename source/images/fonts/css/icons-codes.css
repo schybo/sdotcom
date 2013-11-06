@@ -1,0 +1,31 @@
+@charset "UTF-8";
+ 
+.icon-spin1:before { content: '\e806'; } /* '' */
+.icon-cancel:before { content: '\2715'; } /* '✕' */
+.icon-rss-1:before { content: '\e807'; } /* '' */
+.icon-down-open-1:before { content: '\e800'; } /* '' */
+.icon-left-open-1:before { content: '\e801'; } /* '' */
+.icon-right-open-1:before { content: '\e802'; } /* '' */
+.icon-up-open-1:before { content: '\e803'; } /* '' */
+.icon-play-circled:before { content: '\e809'; } /* '' */
+.icon-play-circled2:before { content: '\e808'; } /* '' */
+.icon-facebook-squared:before { content: '\e814'; } /* '' */
+.icon-gplus-squared:before { content: '\e80d'; } /* '' */
+.icon-gplus:before { content: '\e80c'; } /* '' */
+.icon-html5:before { content: '\e80b'; } /* '' */
+.icon-instagramm:before { content: '\e813'; } /* '' */
+.icon-spin5:before { content: '\e805'; } /* '' */
+.icon-linkedin:before { content: '\e811'; } /* '' */
+.icon-skype:before { content: '\e810'; } /* '' */
+.icon-twitter-squared:before { content: '\e80e'; } /* '' */
+.icon-twitter:before { content: '\e80f'; } /* '' */
+.icon-youtube-1:before { content: '\e80a'; } /* '' */
+.icon-mail:before { content: '\2709'; } /* '✉' */
+.icon-th-list:before { content: '\2630'; } /* '☰' */
+.icon-pinterest:before { content: '\e816'; } /* '' */
+.icon-stumbleupon:before { content: '\e804'; } /* '' */
+.icon-phone:before { content: '📞'; } /* '\1f4de' */
+.icon-facebook:before { content: '\f300'; } /* '' */
+.icon-github-text:before { content: '\e815'; } /* '' */
+.icon-ok:before { content: '\2713'; } /* '✓' */
+.icon-linkedin-squared:before { content: '\e812'; } /* '' */
