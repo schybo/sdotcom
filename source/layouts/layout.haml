@@ -20,13 +20,28 @@
     /%link{ href: '/mobile.css', rel: 'stylesheet', type: 'text/css', media: 'handheld' }/
     /%link{ href: 'http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Droid+Sans+Mono', rel: 'stylesheet', type: 'text/css' }/
 
+    / Included CSS Files
+    = stylesheet_link_tag "foundation"
+
+    :css
+        @font-face {
+        font-family: 'fontello';
+        src: url('images/fonts/fontello.eot?95464272');
+        src: url('images/fonts/fontello.eot?95464272#iefix') format('embedded-opentype'),
+        url('images/fonts/fontello.woff?95464272') format('woff'),
+        url('images/fonts/fontello.ttf?95464272') format('truetype'),
+        url('images/fonts/fontello.svg?95464272#fontello') format('svg');
+        font-weight: normal;
+        font-style: normal;
+        }
+
     -#Favicon Options:
     -#Update favicon_base.png in /source and middleman-favicon-maker will generate all the versions you need on 'middleman build'
     -#OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
 
     %title= data.page.title || "ZURB Foundation"
-    / Included CSS Files
-    = stylesheet_link_tag "foundation"
+    
+    -#Javascript
     = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'
     = javascript_include_tag "vendor/custom.modernizr.js"  
 

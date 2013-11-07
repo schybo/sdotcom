@@ -10,13 +10,13 @@ Font license info
    Homepage:  http://fontello.com
 
 
-## Web Symbols
+## Elusive
 
-   Copyright (c) 2011 by Just Be Nice studio. All rights reserved.
+   Copyright (C) 2013 by Aristeides Stathopoulos
 
-   Author:    Just Be Nice studio
+   Author:    Aristeides Stathopoulos
    License:   SIL (http://scripts.sil.org/OFL)
-   Homepage:  http://www.justbenicestudio.com/
+   Homepage:  http://aristeides.com/
 
 
 ## Font Awesome
@@ -44,6 +44,24 @@ Font license info
    Author:    Stephen Hutchings
    License:   CC BY-SA 3.0 (http://creativecommons.org/licenses/by-sa/3.0/)
    Homepage:  http://typicons.com/
+
+
+## Iconic
+
+   Copyright (C) 2012 by P.J. Onori
+
+   Author:    P.J. Onori
+   License:   SIL (http://scripts.sil.org/OFL)
+   Homepage:  http://somerandomdude.com/work/iconic/
+
+
+## Zocial
+
+   Copyright (C) 2012 by Sam Collins
+
+   Author:    Sam Collins
+   License:   MIT (http://opensource.org/licenses/mit-license.php)
+   Homepage:  http://zocial.smcllns.com/
 
 
 ## Brandico

@@ -1,5 +1,5 @@
 {
-  "name": "icons",
+  "name": "",
   "css_prefix_text": "icon-",
   "css_use_suffix": false,
   "hinting": true,
@@ -9,79 +9,79 @@
     {
       "uid": "72109d2fb3088d0e66ea6a9204297651",
       "css": "spin1",
-      "code": 59398,
+      "code": 59392,
       "src": "fontelico"
     },
     {
       "uid": "5d2d07f112b8de19f2c0dbfec3e42c05",
       "css": "spin5",
-      "code": 59397,
+      "code": 59393,
       "src": "fontelico"
     },
     {
+      "uid": "b091a8bd0fdade174951f17d936f51e4",
+      "css": "folder-empty",
+      "code": 59396,
+      "src": "fontawesome"
+    },
+    {
       "uid": "72b1277834cba5b7944b0a6cac7ddb0d",
-      "css": "rss-1",
-      "code": 59399,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "ccddff8e8670dcd130e3cb55fdfc2fd0",
-      "css": "down-open-1",
-      "code": 59392,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "d870630ff8f81e6de3958ecaeac532f2",
-      "css": "left-open-1",
-      "code": 59393,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "399ef63b1e23ab1b761dfbb5591fa4da",
-      "css": "right-open-1",
-      "code": 59394,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "fe6697b391355dec12f3d86d6d490397",
-      "css": "up-open-1",
+      "css": "rss",
       "code": 59395,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "9f7e588c66cfd6891f6f507cf6f6596b",
+      "css": "phone",
+      "code": 59394,
       "src": "fontawesome"
     },
     {
       "uid": "5717236f6134afe2d2a278a5c9b3927a",
       "css": "play-circled",
-      "code": 59401,
+      "code": 59410,
       "src": "fontawesome"
     },
     {
       "uid": "e835d9d0f2ee39ae01b01cc6a6fa24ab",
       "css": "play-circled2",
-      "code": 59400,
+      "code": 59409,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "d407a4707f719b042ed2ad28d2619d7e",
+      "css": "signal",
+      "code": 59397,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "8e04c98c8f5ca0a035776e3001ad2638",
+      "css": "facebook",
+      "code": 59407,
       "src": "fontawesome"
     },
     {
       "uid": "4743b088aa95d6f3b6b990e770d3b647",
       "css": "facebook-squared",
-      "code": 59412,
+      "code": 59406,
       "src": "fontawesome"
     },
     {
       "uid": "f0cf7db1b03cb65adc450aa3bdaf8c4d",
       "css": "gplus-squared",
-      "code": 59405,
+      "code": 59404,
       "src": "fontawesome"
     },
     {
       "uid": "b8d0c7d76e87b94882329a88e8e43d3d",
       "css": "gplus",
-      "code": 59404,
+      "code": 59405,
       "src": "fontawesome"
     },
     {
       "uid": "ff44f01f60948555026580eedf1e39bb",
       "css": "html5",
-      "code": 59403,
+      "code": 59398,
       "src": "fontawesome"
     },
     {
@@ -93,92 +93,104 @@
     {
       "uid": "1145676a91138011729fa2909997af66",
       "css": "linkedin-squared",
-      "code": 59410,
+      "code": 59399,
       "src": "fontawesome"
     },
     {
       "uid": "e9107949dd6c9e8ab2b29ae07156e38c",
       "css": "linkedin",
-      "code": 59409,
+      "code": 59400,
       "src": "fontawesome"
     },
     {
-      "uid": "58a16628dcbd6456c61218f3d27591be",
-      "css": "skype",
-      "code": 59408,
+      "uid": "da851b7c1f84ee83f93b29ae613558dc",
+      "css": "pinterest-circled",
+      "code": 59401,
       "src": "fontawesome"
     },
     {
       "uid": "906348dc798a0d42715cc97c875e3ac6",
       "css": "twitter-squared",
-      "code": 59406,
+      "code": 59403,
       "src": "fontawesome"
     },
     {
       "uid": "627abcdb627cb1789e009c08e2678ef9",
       "css": "twitter",
-      "code": 59407,
-      "src": "fontawesome"
-    },
-    {
-      "uid": "a9862b9d5197886c1ad693ecd7120b31",
-      "css": "youtube-1",
       "code": 59402,
       "src": "fontawesome"
     },
     {
-      "uid": "e335adbc2d898c7d85d40c507796e7b4",
-      "css": "mail",
-      "code": 9993,
-      "src": "entypo"
+      "uid": "47a1f80457068fbeab69fdb83d7d0817",
+      "css": "youtube-play",
+      "code": 59408,
+      "src": "fontawesome"
     },
     {
-      "uid": "2cfb3f2b46b34a1790aec0aa846297b6",
-      "css": "th-list",
-      "code": 9776,
-      "src": "entypo"
-    },
-    {
-      "uid": "689febe699d74bc8862965555503e445",
-      "css": "pinterest",
-      "code": 59414,
+      "uid": "b08cfe8039de2ce815686aced2caef06",
+      "css": "download",
+      "code": 59412,
       "src": "entypo"
     },
     {
       "uid": "ef5e2b339a93fff038cc6a28f8c91edd",
       "css": "stumbleupon",
-      "code": 59396,
+      "code": 59413,
       "src": "entypo"
     },
     {
-      "uid": "24eiet6l58t0myywueih34b0e5a30bw1",
-      "css": "phone",
-      "code": 128222,
+      "uid": "da6c4728f6175a4b99b122274b8f921c",
+      "css": "flow-split",
+      "code": 59414,
       "src": "typicons"
     },
     {
-      "uid": "240979dd9fcf2e46250e66792edb8092",
-      "css": "facebook",
-      "code": 62208,
-      "src": "brandico"
+      "uid": "937f4db8b6ff3348a1d9fcd5e12fd2fe",
+      "css": "mail",
+      "code": 59416,
+      "src": "iconic"
+    },
+    {
+      "uid": "b90d80c250a9bbdd6cd3fe00e6351710",
+      "css": "ok",
+      "code": 59415,
+      "src": "iconic"
+    },
+    {
+      "uid": "b3a537446285bb3510bba57d20374818",
+      "css": "reddit",
+      "code": 59417,
+      "src": "zocial"
+    },
+    {
+      "uid": "909f99f11c6b6551bf757b6e809f98f3",
+      "css": "googleplay",
+      "code": 59418,
+      "src": "zocial"
+    },
+    {
+      "uid": "b49fa3e57e92b38143e0fdcc5d9a904b",
+      "css": "gmail",
+      "code": 59419,
+      "src": "zocial"
     },
     {
       "uid": "24d1008bf15b6c02a5e7a6af026987dd",
       "css": "github-text",
-      "code": 59413,
+      "code": 59420,
       "src": "brandico"
     },
     {
-      "uid": "7b16b22168e762c88333f465da862098",
-      "css": "ok",
-      "code": 10003,
-      "src": "websymbols"
+      "uid": "5a00c877da3f63d37cdc021815e3f5a9",
+      "css": "skype",
+      "code": 59421,
+      "src": "brandico"
     },
     {
-      "uid": "8da3ac534210aae9c0f0e13804c1df97",
-      "css": "cancel",
-      "code": 10005,
-      "src": "websymbols"
+      "uid": "05a2f4c4839012434774cc1ceb4c0f9b",
+      "css": "download-alt",
+      "code": 59422,
+      "src": "elusive"
     }
   ]
 }
