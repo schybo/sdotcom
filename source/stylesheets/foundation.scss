@@ -4,11 +4,6 @@
 // This includes all of the foundation global elements that are needed to work with any of the other files.
 @import "foundation/variables";
 
-// Personal Components
-@import "foundation/fonts";
-@import "foundation/fonts_animation";
-@import "foundation/footer";
-
 // Foundation Components
 @import
   "foundation/components/global",
@@ -46,3 +41,8 @@
   "foundation/components/thumbs",
   "foundation/components/tooltips",
   "foundation/components/dropdown";
+
+// Personal Components
+@import "foundation/fonts";
+@import "foundation/fonts_animation";
+@import "foundation/footer";

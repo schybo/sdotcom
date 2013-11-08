@@ -1,9 +1,9 @@
-$white: fffbed;
-$black: 30394F;
+$white: #fffbed;
+$black: #30394F;
 
 #footer {
+
   background-color: $black; //image-url("site-bg.png") top left repeat;
-  height: 20%;
   padding: 20px 0;
   width: 100%;
 
@@ -11,3 +11,10 @@ $black: 30394F;
     color: $white;
   } */
 }
+
+.align-left {
+	position: relative;
+	left:20%;
+}
+
+// columns foundation
