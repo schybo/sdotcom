@@ -1,6 +1,9 @@
 // Make sure the charset is set appropriately
 @charset "UTF-8";
 
+// Sitewide Fonts
+@import "foundation/site_fonts";
+
 // This includes all of the foundation global elements that are needed to work with any of the other files.
 @import "foundation/variables";
 
@@ -46,3 +49,5 @@
 @import "foundation/fonts";
 @import "foundation/fonts_animation";
 @import "foundation/footer";
+@import "foundation/slider";
+@import "foundation/body";

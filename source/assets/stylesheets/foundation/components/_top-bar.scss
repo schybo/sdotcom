@@ -5,8 +5,14 @@
 $include-html-top-bar-classes: $include-html-classes !default;
 
 // Background color for the top bar
-$topbar-bg-color: #30394F !default;
+$topbar-bg-color: #30394f !default;
 $topbar-bg: $topbar-bg-color !default;
+$topbar-bg: -moz-linear-gradient(top, #7db9e8 0%, #207cca 0%, #3f4568 0%, #30394f 100%); /* FF3.6+ */
+$topbar-bg: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(0%,#207cca), color-stop(0%,#3f4568), color-stop(100%,#30394f)); /* Chrome,Safari4+ */
+$topbar-bg: -webkit-linear-gradient(top, #7db9e8 0%,#207cca 0%,#3f4568 0%,#30394f 100%); /* Chrome10+,Safari5.1+ */
+$topbar-bg: -o-linear-gradient(top, #7db9e8 0%,#207cca 0%,#3f4568 0%,#30394f 100%); /* Opera 11.10+ */
+$topbar-bg: -ms-linear-gradient(top, #7db9e8 0%,#207cca 0%,#3f4568 0%,#30394f 100%); /* IE10+ */
+$topbar-bg: linear-gradient(to bottom, #7db9e8 0%,#207cca 0%,#3f4568 0%,#30394f 100%); /* W3C */
 
 // Height and margin
 $topbar-height: 60px !default;
@@ -111,6 +117,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
     position: relative;
     background: $topbar-bg;
     margin-bottom: $topbar-margin-bottom;
+    font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
 
     // Topbar Global list Styles
     ul {
@@ -141,6 +148,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
       h1 {
         line-height: $topbar-height;
         font-size: $topbar-title-font-size;
+        font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
         margin: 0;
         a {
           font-weight: $topbar-title-weight;
@@ -299,6 +307,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
 
       // Apply the hover link color when it has that class
       &:hover > a {
+        /* applies background when on another link */
         background: $topbar-link-bg-hover;
         color: $topbar-link-color-hover;
       }
@@ -442,6 +451,7 @@ $topbar-arrows: true !default; //Set false to remove the triangle icon from the 
           padding: 0 $topbar-height / 3;
           line-height: $topbar-height;
           background: $topbar-bg;
+          /* This controls background when on a link */
           &:hover { background: $topbar-link-bg-hover; }
         }
       }
