@@ -1,17 +1,19 @@
 / Header
 //%a.button.open{href: "#"} Contact Info
 
-.body_bg
-  .body_content_top
-    .body_title
-      %p Brent Scheibelhut
-    .body_sub_head
-      %p Designer. Hacker. Artist. Writer. Athlete.
-    .body_cta
-      /*%a.button.open{href: "#"} Contact Info*/
-      %a.button{"data-reveal-id" => "myModal", href: "#"} Contact Info
-  .body_content_bottom
-    /%img{src:'assets/images/header.png'}
+= partial 'freelance_form'
+
+.body_content_top
+  .body_title
+    %p Brent Scheibelhut
+  .body_sub_head
+    %p Designer. Hacker. Artist. Writer. Athlete.
+  .body_cta
+    /*%a.button.open{href: "#"} Contact Info*/
+    %a.button.left_cta{"data-reveal-id" => "myModal", href: "#"} Contact Info
+    %a.button.right_cta{"data-reveal-id" => "freeForm", href: "#"} Freelance Work
+.body_content_bottom
+  /%img{src:'assets/images/header.png'}
 #myModal.reveal-modal.medium
   %img.left{src:"assets/images/logo_brent.png", width: "300px", height: "200px"}/
   %h2 Brent Scheibelhut
