@@ -1,40 +1,46 @@
-#freeForm.reveal-modal.large 
-  %form
+#freeForm.reveal-modal.large.rounded
+  %p 
+    %b Please Note:
+    At this time payment will be worked out between myself and the client. As these works are all unique, the time spent in creation may vary, and hence the cost may vary as well. 
+  %form{action: "process-form-data.php", id: "web_form", method: "post", name: "web_form"}
     %fieldset
       %legend Freelance Hire Contact Form
       .row
         .large-4.columns
           %label First Name
-          %input{type: "text"}/
+          %input{id: "fname", name: "fname", type: "text"}/
         .large-4.columns
           %label Last Name
-          %input{type: "text"}/
+          %input{id: "lname", name: "lname", type: "text"}/
         .large-4.columns
           %label{for: "customDropdown1"} Primary Freelance Work Needed
-          %select#customDropdown1.medium
+          %select#customDropdown1.medium{name: "Freelance Work Needed"}
             %option{disabled: "disabled"} Please Pick One
-            %option New Website
-            %option Upgrade/Mobile Website
-            %option Graphic Design/Advertisment
-            %option Blog Syndication
+            %option{value: "New Website"} New Website
+            %option{value: "Upgrade/Mobile Website"} Upgrade/Mobile Website
+            %option{value: "Graphic Design/Advertisment"} Graphic Design/Advertisment
+            %option{value: "SEO/Marketing"} SEO/Marketing
+            %option{value: "Blog Syndication"} Blog Syndication
       .row
         .large-4.columns
           %label Phone
-          %input{type: "text"}/
+          %input{id: "phone", name: "phone", type: "text"}/
         .large-4.columns
           .row.collapse
             %label Email
-            .small-9.columns
-              %input{type: "text"}/
-            .small-3.columns
-              %span.postfix .com
+            .small-12.columns
+              %input{id: "email", name: "email", type: "text"}/
+            /.small-3.columns
+            /  %span.postfix .com
         .large-4.columns
           %label Current Website (If Applicable)
-          %input{type: "text"}/
+          %input{id: "website", name: "website", type: "text"}/
         
       .row
-        .large-12.columns
+        .large-8.columns
           %label Description of Freelance Work Needed
-          %textarea{}
+          %textarea{id: "description", name: "description"}
           /%textarea{placeholder: "Start Writing Here"}
+        .large-4.columns
+          %input.button.success.radius.expand.submit{type: "submit", name: "Submit", value: "Submit"}
   %a.close-reveal-modal ×
