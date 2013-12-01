@@ -26,24 +26,23 @@ $grey: EDE8DF;
   } 
 }
 
-.footer-left {
+.footer_container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.footer-block {
+	margin-right: 7em;
+	vertical-align: top;
 	padding: 10px; 
-	margin-left: 10%;
 	display: inline-block;
 }
 
-.footer-center {
-	padding: 10px; 
-	margin-left: 10%;
-	display: inline-block;
-}
-
-.footer-right {
-	margin-left: 10%;
-	padding:10px;
-	display: inline-block;
-	padding-bottom:0;
-	margin-bottom: -0.5em;
+.share_block {
+	margin-right: 0 !important;
+	padding: 0;
+	margin-top: 0.5em;
 }
 
 .footer_shares a,
@@ -57,4 +56,23 @@ $grey: EDE8DF;
 	color: $blue;
 }
 
-// columns foundation
+/*------ Breakpoint #1 For Footer ------*/
+@media only screen and (max-width: 1000px) {
+	.footer_container {
+		width: 845px;
+	}
+	.footer-block {
+		margin-right: 3em;
+	}
+}
+
+/*------ Breakpoint #2 For Footer ------*/
+@media only screen and (max-width: 845px) {
+	.footer_container {
+		width: 540px;
+	}
+	.footer-block {
+		margin-right: 0.5em;
+		font-size: 0.70em;
+	}
+}

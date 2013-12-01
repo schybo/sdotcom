@@ -83,7 +83,8 @@
 
 .body_content_bottom {
 	width: 100%;
-	height: 90em;
+	height: auto;
+	margin-bottom: 3em;
 	background-color: #fff;
 	//border: 1px solid $black;
 	text-align: center;
@@ -143,6 +144,10 @@
 
 .mobile_right {
 	display: none;
+}
+
+.no_border_bottom {
+	border-bottom: none;
 }
 
 /*------ Breakpoint #1 For Bottom Header ------*/
@@ -305,5 +310,13 @@
 
 	.mobile_right {
 		display: inline-block;
+	}
+
+	.footer_container {
+		width: 80%;
+	}
+	.footer-block {
+		display: block;
+		margin-right: 0;
 	}
 }
