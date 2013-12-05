@@ -55,9 +55,9 @@
     %title= data.page.title || "ZURB Foundation"
     
     -#Javascript
-    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'
+    = javascript_include_tag 'http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js'
     = javascript_include_tag "vendor/custom.modernizr.js"  
-    = javascript_include_tag "jquery"
+    /= javascript_include_tag "jquery"
 
   %body{:class => page_classes}
     %header
@@ -72,9 +72,14 @@
       document.write('<script src=/js/vendor/'
         + ('__proto__' in {} ? 'zepto' : 'jquery')
         + '.js><\/script>');
+    :javascript
+      $(document).ready(function() {
+         $('.fancybox').fancybox();
+      });
 
     = javascript_include_tag "foundation.min.js"
     = javascript_include_tag "jquery.pageslide.min.js"
+    = javascript_include_tag "vendor/fancybox/source/jquery.fancybox.js"
 
     :javascript
       $(".open").pageslide();
@@ -83,4 +88,4 @@
       $(document).foundation();
 
     -# Google Analytics
-    = javascript_include_tag "google_analytics"
+    = javascript_include_tag "vendor/google_analytics"
