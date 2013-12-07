@@ -69,10 +69,24 @@ $grey: EDE8DF;
 /*------ Breakpoint #2 For Footer ------*/
 @media only screen and (max-width: 845px) {
 	.footer_container {
-		width: 540px;
+		width: 540px;	
 	}
 	.footer-block {
 		margin-right: 0.5em;
 		font-size: 0.70em;
+	}
+}
+
+/*------ Breakpoint #3 For Footer ------*/
+@media only screen and (max-width: 550px) {
+	.footer_container {
+		text-align: center;
+		//border: 1px solid white;
+	}
+	.share_block {
+		//border: 1px solid white;
+		margin-left: auto !important;
+		margin-right: auto !important;
+		width: 190px;
 	}
 }

@@ -72,7 +72,7 @@ configure :build do
   #activate :relative_assets
   
   # Use favicon-maker
-  activate :favicon_maker
+  #activate :favicon_maker
 
   # Compress PNGs after build
   # First: gem install middleman-smusher
