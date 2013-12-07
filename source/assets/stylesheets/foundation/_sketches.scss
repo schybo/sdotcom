@@ -4,6 +4,14 @@
 	overflow: hidden;
 	display: inline-block;
 	img {
-		border: 1px solid black;
+		border: 1px solid $black;
 	}
+	img:hover {
+		border: 1px solid $blue;
+	}
+}
+
+.border_bottom {
+	border-bottom: 1px solid #b4b4b4;
+	padding-bottom: 2em;
 }
