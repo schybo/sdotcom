@@ -2,15 +2,11 @@
 	border: 1px solid $black;
 }
 
-.no_mar_pd {
-	padding: 0 0 0 0 !important;
-	margin: 0 0 0 0 !important;
+.no_mar_pad {
 	h1 {
-		padding: 0 0 0 0 !important;
-		margin: 0 0 0 0 !important;
+		margin-bottom: 0;
 	}
-	h2 {
-		padding: 0 0 0 0 !important;
-		margin: 0 0 0 0 !important;
+	h3 {
+		margin-top: 0;
 	}
 }

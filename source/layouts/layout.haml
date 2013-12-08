@@ -34,6 +34,7 @@
         }
 
     = stylesheet_link_tag "foundation"
+    %link{href: "//releases.flowplayer.org/5.4.4/skin/minimalist.css", rel: "stylesheet"}/
 
     :css
         @font-face {
@@ -77,6 +78,7 @@
     = javascript_include_tag "jquery.pageslide.min.js"
     = javascript_include_tag "vendor/jquery.flexslider-min.js"
     = javascript_include_tag "vendor/fancybox/source/jquery.fancybox.js"
+    %script{src: "//releases.flowplayer.org/5.4.4/flowplayer.min.js"}
 
     :javascript
       $(".open").pageslide();

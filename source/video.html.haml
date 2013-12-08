@@ -1,0 +1,22 @@
+/ Lifting
+/ Injuries
+
+.headliner
+ .flowplayer
+  %video
+   %source{src: "assets/videos/tt1.mp4", type: "video/mp4"}
+.more_videos
+ .mini_head
+  %h1.font Beautiful Videos. Handcrafted For You.
+ .hire_button
+  %a.button{"data-reveal-id" => "freeForm", href: "#"} Get Me Some
+ .extra_vid
+  %a.th.radius{"data-reveal-id" => "reach", href: "#"}
+   %img{src: "assets/images/broad_reach.png"}
+ .extra_vid.margin_left
+  %a.th.radius{"data-reveal-id" => "experimental", href: "#"}
+   %img{src: "assets/images/experimental.png"}
+
+= partial 'experimental'
+= partial 'reach'
+= partial 'freelance_form'

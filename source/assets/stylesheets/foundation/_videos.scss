@@ -1,0 +1,117 @@
+.headliner {
+	width: 900px;
+	margin: 4em auto 1em auto;
+	padding: 1em 0 1em 0;
+}
+
+.more_videos {
+	width: 80%;
+	height: 40em;
+	border-top: 2px solid #b4b4b4;
+	margin: 3em auto 1em auto;	
+	h1 {
+		margin-top: 0.8em;
+	}
+}
+
+.mini_head {
+	display: inline-block;
+	width: 600px;
+	//border: 1px solid black;
+}
+
+.extra_vid {
+	//position: relative;
+	//border: 1px solid black;
+	width: 47%;
+	display: inline-block;
+}
+
+.margin_left {
+	margin-left: 4%;
+}
+
+.hire_button {
+	display: inline-block;
+	//border: 1px solid black;
+	width: 175px;
+	vertical-align: top;
+	margin-top: 2.5em;
+}
+
+/*------ Breakpoint #1 For Sub_Videos ------*/
+@media only screen and (max-width: 990px) {
+	.hire_button {
+		font-size: 0.7em;
+		width: 120px;
+		margin-top: 3em;
+	}
+	.mini_head {
+		font-size: 0.75em;
+		width: 450px;
+	}
+}
+
+/*------ Breakpoint #1 For Videos ------*/
+@media only screen and (max-width: 920px) {
+	.headliner {
+		width: 540px;
+	}
+}
+
+/*------ Breakpoint #2 For Sub_Videos ------*/
+@media only screen and (max-width: 767px) {
+	.hire_button {
+		font-size: 1em;
+		width: 155px;
+		margin-top: 0em;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.mini_head {
+		font-size: 0.7em;
+		width: 325px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.extra_vid {
+		width: 80%;
+		display: block;
+		margin: 1em auto 1em auto;
+	}
+}
+
+/*------ Breakpoint #2 For Videos ------*/
+@media only screen and (max-width: 560px) {
+	.headliner {
+		width: 360px;
+		margin-top: 1.5em;
+		margin-bottom: 0em;
+	}
+	.more_videos {
+		margin-top: 2em;
+	}
+	.extra_vid {
+		width: 90%;
+	}
+	.mini_head {
+		font-size: 0.5em;
+		width: 230px;
+	}
+	.hire_button {
+		width: 140px;
+	}
+}
+
+/*------ Breakpoint #3 For Videos ------*/
+@media only screen and (max-width: 380px) {
+	.headliner {
+		width: 270px;
+		margin-top: 1em;
+	}
+	.more_videos {
+		margin-top: 1em;
+	}
+}
