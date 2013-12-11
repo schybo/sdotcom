@@ -1,0 +1,31 @@
+- social: default
+  itemprop_description: "Brent Scheibelhut - Designer. Hacker. Artist. Writer. Athlete. - Freelance"
+  itemprop_title: "Brent Scheibelhut"
+  og_description: "Brent Scheibelhut - Designer. Hacker. Artist. Writer. Athlete. - Freelance"
+  og_image: "logo_brent.png"
+  og_image_height: 500
+  og_image_width: 1109 
+  og_site_name: "Brent Scheibelhut"
+  og_title: "Brent Scheibelhut"
+  og_type: website
+  description: Brent Scheibelhut - Designer. Hacker. Artist. Writer. Athlete.
+- social: deal_accel
+  itemprop_description: "Learn firsthand how Visual Data Systems empowered their reps to develop winning behaviors with Salesforce Work.com."
+  itemprop_title: "How Visual Data Systems Built a Strengths-Driven Sales Culture [Webinar] - Salesforce Work.com"
+  og_description: "Learn firsthand how Visual Data Systems empowered their reps to develop winning behaviors with Salesforce Work.com."
+  og_image: "webinars/events/visual_data_291.jpeg"
+  og_image_height: 261
+  og_image_width: 291 
+  og_site_name: "Salesforce Work.com"
+  og_title: "How Visual Data Systems Built a Strengths-Driven Sales Culture [Webinar] - Salesforce Work.com"
+  og_type: website
+- social: sales_performance/how_to_motivate_sales_people
+  itemprop_description: "This infographic explains how to Motivate Sales People.  It's not just about money—sales motivation is a bit more complex, and doing it correctly make a big impact on sales performance"
+  itemprop_title: "How to Motivate Sales People [INFOGRAPHIC] Salesforce Work.com"
+  og_description: "This infographic explains how to Motivate Sales People.  It's not just about money—sales motivation is a bit more complex, and doing it correctly make a big impact on sales performance"
+  og_image: "infographics/how_to_motivate_sales_people_thumb.png"
+  og_image_height: 250
+  og_image_width: 250
+  og_site_name: "Salesforce Work.com"
+  og_title: "How to Motivate Sales People [INFOGRAPHIC] Salesforce Work.com"
+  og_type: website

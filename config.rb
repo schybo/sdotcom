@@ -47,11 +47,22 @@ activate :directory_indexes
 activate :livereload
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+    def page_title
+        data.page.title
+    end
+    
+    def page_description
+        data.page.description
+    end
+
+    def page_keywords
+        data.page.keywords
+    end
+    def add_meta_noindex_tag?
+        current_page.data.add_meta_noindex_tag
+    end
+end
 
 set :css_dir, 'assets/stylesheets'
 set :js_dir, 'assets/javascripts'

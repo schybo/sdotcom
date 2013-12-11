@@ -1,0 +1,70 @@
+%head
+  %meta{:charset => "utf-8"}
+  %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
+  %meta{:content => "width=device-width", :name => "viewport"}
+  %meta{content: "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+  %meta{content: "en-US-CA", "http-equiv" => "Content-Language"}/
+  %meta{content: current_page.data.page_description, name: "description"}/
+  %meta{content: current_page.data.page_keywords, name: "keywords"}/
+  %meta{content: "initial-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width", name: "viewport"}/
+  / Always force latest IE rendering engine or request Chrome Frame
+  %meta{content: "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+  - @social_frontmatter = current_page.data.social
+  - (@social_frontmatter = @social_frontmatter || "default")
+  - data.meta_social.select { |meta_social| meta_social['social'] == @social_frontmatter }.each do |meta_tags|
+    %meta{content: meta_tags['og_title'], property: "og:title"}/
+    %meta{content: meta_tags['og_title'], itemprop: "name"}/
+    %meta{content: meta_tags['og_type'], property: "og:type"}/
+    %meta{content: meta_tags['og_description'], property: "og:description"}/
+    %meta{content: meta_tags['og_description'], itemprop: "description"}/
+    %meta{content: "http://brentscheibelhut.com/#{request.path}", property: "og:url"}/
+    %meta{content: "http://brentschebielhut.com#{image_path(meta_tags['og_image'])}", property: "og:image"}/
+    %meta{content: meta_tags['og_image_height'], property: "og:image:width"}/
+    %meta{content: meta_tags['og_image_width'], property: "og:image:height"}/
+    %meta{content: meta_tags['og_site_name'], property: "og:site_name"}/
+    %link{href: "http://brentscheibelhut.com#{image_path(meta_tags['og_image'])}", rel: "image_src"}/
+  - if add_meta_noindex_tag?
+    %meta{content: "noindex", name: "robots"}/
+  %meta{content: "en_US", property: "og:locale"}/
+  %meta{content: "brent.scheibelhut", property: "fb:admins"}/
+  /%meta{content: "141249602711680", property: "fb:app_id"}/
+  /%meta{content: "9ECTySi0_GeTCfDZNmBXsehQoiCybex4metxiksLcRc", name: "google-site-verification"}/
+  /%link{href: "/favicon.ico", rel: "shortcut icon", type: "image/x-icon"}/
+  %link{href: "https://plus.google.com/109561166639292857885", rel: "publisher"}/
+
+  / Included CSS Files
+  /
+  :css
+      @font-face {
+      font-family: 'Hardwood';
+      src: url('assets/images/fonts/hardwoodlpstd-webfont.eot');
+      src: url('assets/images/fonts/hardwoodlpstd-webfont.eot?#iefix') format('embedded-opentype'),
+      url('assets/images/fonts/hardwoodlpstd-webfont.woff') format('woff'),
+      url('assets/images/fonts/hardwoodlpstd-webfont.ttf') format('truetype'),
+      url('assets/images/fonts/hardwoodlpstd-webfont.svg#hardwood_lp_stdregular') format('svg');
+      font-weight: 800;
+      font-style: normal;
+      }
+
+  = stylesheet_link_tag "foundation"
+  %link{href: "//releases.flowplayer.org/5.4.4/skin/minimalist.css", rel: "stylesheet"}/
+
+  :css
+      @font-face {
+      font-family: 'fontello';
+      src: url('assets/images/fonts/fontello.eot?95464272');
+      src: url('assets/images/fonts/fontello.eot?95464272#iefix') format('embedded-opentype'),
+      url('assets/images/fonts/fontello.woff?95464272') format('woff'),
+      url('assets/fonts/fontello.ttf?95464272') format('truetype'),
+      url('assets/fonts/fontello.svg?95464272#fontello') format('svg');
+      font-weight: normal;
+      font-style: normal;
+      }
+
+  %title= data.page.title || "Brent Scheibelhut"
+  
+  /Jquery latest might be screwing up browsers
+  /#Javascript
+  = javascript_include_tag 'http://code.jquery.com/jquery-latest.min.js'
+  = javascript_include_tag "vendor/custom.modernizr.js"  
+  /= javascript_include_tag "jquery"
