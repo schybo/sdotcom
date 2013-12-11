@@ -1,0 +1,65 @@
+.less_space_bottom {
+	margin-bottom: 0;
+}
+
+.infographic {
+	width: 578px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+.head_text {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.warning_text {
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.smaller_sub_head {
+	width: 225px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0em;
+	h1 {
+		margin-top: 0em;
+	}
+}
+
+/*------ Breakpoint #1 For Infographic ------*/
+@media only screen and (max-width: 767px) {
+	.head_text {
+		width: 425px;
+	}
+}
+
+/*------ Breakpoint #1 For Infographic ------*/
+@media only screen and (max-width: 630px) {
+	.infographic {
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+		border: 1px solid black;
+	}
+}
+
+/*------ Breakpoint #1 For Infographic ------*/
+@media only screen and (max-width: 578px) {
+	.head_text {
+		width: 275px;
+		font-size: 0.65em;
+	}
+	.smaller_sub_head {
+		width: 125px;
+		font-size: 0.65em;
+	}
+	.warning_text {
+		width: 175px;
+		font-size: 0.6em;
+	}
+}
