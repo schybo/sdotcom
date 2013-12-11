@@ -39,6 +39,7 @@ page "humans.txt", :layout => false
 
 # Pretty URL's
 activate :directory_indexes
+page "/google176cd38e6e6ed9bf.html", :directory_index => false
 
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
