@@ -18,3 +18,4 @@ gem "redcarpet"
 gem 'haml', "< 4.0"
 
 gem 'coffee-filter' # Coffeescript filter for HAML
+gem 'newrelic_rpm'
