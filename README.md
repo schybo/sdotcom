@@ -1,37 +1,47 @@
-# Middleman Template: ZURB Foundation #
+# Work.com
+Small [middleman](http://middlemanapp.com/) site for http://brentscheibelhut.com
 
-Middleman-Foundation is a [Middleman 3.x](http://middlemanapp.com/) project template with the [Compass](http://compass-style.org) and [SCSS](http://sass-lang.com/) version of the [ZURB Foundation](http://foundation.zurb.com/) using [HAML](http://haml-lang.com/). As with all Middleman templates, using [Bundler](http://gembundler.com/) and [RVM](https://rvm.io/) is recommended.
+## Development
+If you're implementing a feature, please implement your feature on a separate
+branch then open a pull request on GitHub. The master branch should always
+be production ready code.
 
-This project template has been updated to support Foundation 4.
+```bash
+$ git clone https://github.com/bscheibe/sdotcom
+$ cd sdotcom
+$ bundle install
+$ bundle exec middleman s
+```
 
-## Installation ##
+Point your browser to <http://localhost:4567>
 
-Clone into ~/.middleman (you'll have to create this directory if it's not already there). You can then use it with the `--template` flag on `middleman init`.
+### Folder Structure
 
-1. $ `git clone git://github.com/vocino/middleman-foundation.git ~/.middleman/foundation`
-2. $ `middleman init my_new_project --template=foundation`
+* `source`: Pretty much 99% of your changes will be in this directory. It
+  contains all the haml, scss and javascript.
+* `data`: Yaml formatted data for meta data
 
-For more help follow [Middleman's project template instructions](http://middlemanapp.com/getting-started/welcome/) or feel free to hit me up on [Twitter](http://twitter.com/vocino).
+## Deploying
+You can deploy to production by running
 
-## ZURB Foundation License ##
+```bash
+$ git checkout master
+$ rake production heroku:push
+```
 
-Copyright (c) 2011 ZURB, http://www.zurb.com/
+### Staging Environments
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+There are one staging app; `staging`. You can deploy code to it's
+environment for QA purposes by running:
 
-The above copyright notice and this permission notice shall be
-included in all copies or substantial portions of the Software.
+```bash
+$ git checkout my-feature-branch
+$ rake staging heroku:push:force
+```
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
-LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
-OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
-WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+## Tests
+Run the specs with:
+
+```bash
+$ rake spec
+```

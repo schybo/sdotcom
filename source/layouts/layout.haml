@@ -2,33 +2,14 @@
 /[if lt IE 7] <html class="no-js lt-ie9 lt-ie8 lt-ie7">
 /[if IE 7] <html class="no-js lt-ie9 lt-ie8">
 /[if IE 8] <html class="no-js lt-ie9">
-/ [if gt IE 8]><!
-%html.no-js
-  / <![endif]
-  %head
-    /%meta{:charset => "utf-8"}
-    /%meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}
-    /%meta{ name: 'author', content: @view[:author] }/
-    /%meta{ name: 'description', content: @view[:description] }/
-    /%meta{ name: 'keywords', content: @view[:tags] }/
-    /%meta{ name: 'created', content: @view[:created] }/
-    /%meta{:content => "width=device-width", :name => "viewport"}
-    /%meta{ name: 'author', content: @view[:author] }/
-    /%meta{ name: 'description', content: @view[:description] }/
-    /%meta{ name: 'keywords', content: @view[:tags] }/
-    /%meta{ name: 'created', content: @view[:created] }/
-    /%link{ href: '/mobile.css', rel: 'stylesheet', type: 'text/css', media: 'handheld' }/
-    /%link{ href: 'http://fonts.googleapis.com/css?family=Droid+Sans|Droid+Serif|Droid+Sans+Mono', rel: 'stylesheet', type: 'text/css' }/   
 
-    -#Favicon Options:
-    -#Update favicon_base.png in /source and middleman-favicon-maker will generate all the versions you need on 'middleman build'
-    -#OR, place favicon.ico and apple-touch-icon.png in /source and deactivate :favicon_maker in config.rb
+%html.no-js
   = partial 'head'
 
   %body{:class => page_classes}
     %header
       /= render :partial => 'nav_bar'
-      = partial 'nav_bar'
+    = partial 'nav_bar'
     %section{:role => "main", :class => "main"}= yield
     %footer
       = partial 'footer'
