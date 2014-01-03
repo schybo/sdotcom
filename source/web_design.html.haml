@@ -1,0 +1,68 @@
+/ Lifting
+/\---
+/title: Brent Scheibelhut - Designer. Hacker. Artist. Writer. Athlete.
+/page_description: Freelance design for graphics, videos, blog syndication, responsive websites, IT support
+/social:video
+/\---
+/ Injuries
+
+.wd_content_top
+  .wd_body_title
+    %p Responsive Web Design
+  .wd_body_sub_head
+    %p Join The Next Generation Of Web Apps
+  .wd_body_cta
+    /*%a.button.open{href: "#"} Contact Info*/
+    %a.button.left_cta{"data-reveal-id" => "myModal", href: "#"} Contact Info
+    %a.button.right_cta{"data-reveal-id" => "freeForm", href: "#"} Freelance Work
+
+.body_content_bottom
+  .section_left
+    %a{href: "http://work.com/blog"}
+      %img.section_left_img{src:'assets/images/mobile-website.gif', height: "350px", width: "450px"}
+    .section_left_text
+      %h2 Salesforce Work.com Blog
+      %ul
+        %li Feature rich - featured posts, slide menus and more! 
+        %li Completely responsive desktop, tablet, and mobile viewing.
+        %li Minimal design & special menu for mobile view
+        %li Social media popularity choice viewing (inside and out)
+        %li Substantial PHP work for stronger engagement
+      /.wd_learn_more
+      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
+
+
+  .section_left.non_mobile_right
+    .section_left_text
+      %h2 Martin Verdugo's Beach Resort
+      %ul
+        %li Numerous Breakpoints - Serves all devices (mobiel & portrait)
+        %li Unchanged design - worked with difficult original framework to retain feel
+        %li Each page unique - due to constraints of original design
+      /%a.button.small.wdr_learn_more{href: "#"} Learn More &gt;&gt;
+    %a{href: "http://www.verdugosbeachresort.com/"}
+      %img.section_left_img{src:'assets/images/verdugo.gif', height: "350px", width: "450px"}
+  .section_left.mobile_right
+    %a{href: "http://www.verdugosbeachresort.com/"}
+      %img.section_left_img{src:'assets/images/verdugo.gif', height: "350px", width: "450px"}
+    .section_left_text
+      %h2 Martin Verdugo's Beach Resort
+      %ul
+        %li Numerous Breakpoints - Serves all devices (mobiel & portrait)
+        %li Unchanged design - worked with difficult original framework to retain feel
+        %li Each page unique - due to constraints of original design
+      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
+
+  .section_left.no_border_bottom
+    %img.section_left_img{src:'assets/images/brent_s.gif', height: "350px", width: "450px"}
+    .section_left_text
+      %h2 Brentscheibelhut.com
+      %h3 Try it out! Adjust the browser window size
+      %ul
+        %li Written in HAML & SCSS. 
+        %li Hosted on Heroku and uses the Middleman App
+        %li Alternate responsive designs for different pages
+      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
+
+= partial 'freelance_form'
+= partial 'contact_info'

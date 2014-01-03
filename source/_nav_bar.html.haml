@@ -1,108 +1,109 @@
 / Navigation
-%nav.top-bar
-  %ul.title-area
-    / Title Area
-    %li.name
-      %h1
+.sticky
+  %nav.top-bar
+    %ul.title-area
+      / Title Area
+      %li.name
+        %h1
+          %a{href: "/"}
+            Brent Scheibelhut
+      %li.toggle-topbar.menu-icon
         %a{href: "/"}
-          Brent Scheibelhut
-    %li.toggle-topbar.menu-icon
-      %a{href: "/"}
-        %span menu
-  %section.top-bar-section
-    / Right Nav Section
-    %ul.right
-      %li.divider
-      %li.has-dropdown
-        %a{href: "#"} Freelance
-        %ul.dropdown
-          /%li
-          /  %a{href: "#"} Websites
-          /%li
-          /  %a{href: "#"} Design
-          /%li
-          /  %a{href: "#"} Marketing
-          %li
-            %a{href: "/video"} Video
-      %li.divider
-      %li.has-dropdown
-        %a{href: "#"} Published Works
-        %ul.dropdown
-          %li
-            %label Design
-          %li.has-dropdown
-            %a{href: "#"} Infographics
-            %ul.dropdown
-              %li
-                %a{href: "/work_infographic"} 5 Sales Pain Cured
-          /%li
-          /  %a{href: "#"} Work.com Site Wide Images
-          /%li
-          /  %a{href: "/sfdc_img"} Salesforce.com Work.com Images
-          /%li
-          /  %a{href: "#"} Advertisements
-          /%li
-          /  %a{href: "#"} Work.com Blog Redesign
-          %li.divider
-          %li
-            %label Writing
-          %li.has-dropdown
-            %a{href: "#"} Recognize & Motivate
-            %ul.dropdown
-              %li
-                %a{href: "http://blogs.salesforce.com/company/2013/10/motivate-employees.html"} Salesforce Blog
-              %li
-                %a{href: "http://work.com/blog/2013/11/5-tips-tricks-badge-recognition-within-work-com-salesforce/"} Work.com Blog
-          %li
-            %a{href: "http://blogs.salesforce.com/company/2013/12/sales-coaching.html"} Coaching
-          %li.divider
-          %li
-            %label Apps
-          %li
-            %a{href: "http://easybadge.herokuapp.com/"} EasyBadge
-      %li.divider
-      %li.has-dropdown
-        %a{href: "#"} Unpublished Works
-        %ul.dropdown
-          %li
-            %label Artwork
-          %li
-            %a{href: "/sketches"} Sketches
-          %li
-            %a{href: "/whiteboard"} Whiteboard
-          %li.divider
-          %li
-            %label Writing
-          %li
-            %a{href: "/novel1"} Novel #1
-          /%li
-          /  %a{href: "#"} Novel #2
-          -#%li.divider
-          -#%li
-          -#  %label Apps
-      %li.divider
-      %li.has-dropdown
-        %a{href: "#"} About
-        %ul.dropdown
-          %li
-            %a{href: "/pdfs/resume.pdf"} R&eacute;sum&eacute;
-          %li
-            %a{href: "/pdfs/cv.pdf"} Curriculum Vitae
-          /%li
-          /  %a{href: "#{}"} Press
-          /%li
-          /  %a{href: "#{}"} Reviews
-          /May not want to do this because I sound like ass
-          %li.divider
-          %li.has-dropdown
-            %a{href: "#"} Athletics
-            %ul.dropdown
-              %li
-                %a{href: "/running"} Running
-              %li
-                %a{href: "/lifting"} Lifting
-              %li
-                %a{href: "/swimming"} Swimming
-          /%li
-          /  %a{href: "#"} Top 10's
-/ End Top Bar
+          %span menu
+    %section.top-bar-section
+      / Right Nav Section
+      %ul.right
+        %li.divider
+        %li.has-dropdown
+          %a{href: "#"} Freelance
+          %ul.dropdown
+            %li
+              %a{href: "/web_design"} Websites
+            /%li
+            /  %a{href: "#"} Design
+            /%li
+            /  %a{href: "#"} Marketing
+            %li
+              %a{href: "/video"} Video
+        %li.divider
+        %li.has-dropdown
+          %a{href: "#"} Published Works
+          %ul.dropdown
+            %li
+              %label Design
+            %li.has-dropdown
+              %a{href: "#"} Infographics
+              %ul.dropdown
+                %li
+                  %a{href: "/work_infographic"} 5 Sales Pain Cured
+            /%li
+            /  %a{href: "#"} Work.com Site Wide Images
+            /%li
+            /  %a{href: "/sfdc_img"} Salesforce.com Work.com Images
+            /%li
+            /  %a{href: "#"} Advertisements
+            /%li
+            /  %a{href: "#"} Work.com Blog Redesign
+            %li.divider
+            %li
+              %label Writing
+            %li.has-dropdown
+              %a{href: "#"} Recognize & Motivate
+              %ul.dropdown
+                %li
+                  %a{href: "http://blogs.salesforce.com/company/2013/10/motivate-employees.html"} Salesforce Blog
+                %li
+                  %a{href: "http://work.com/blog/2013/11/5-tips-tricks-badge-recognition-within-work-com-salesforce/"} Work.com Blog
+            %li
+              %a{href: "http://blogs.salesforce.com/company/2013/12/sales-coaching.html"} Coaching
+            %li.divider
+            %li
+              %label Apps
+            %li
+              %a{href: "http://easybadge.herokuapp.com/"} EasyBadge
+        %li.divider
+        %li.has-dropdown
+          %a{href: "#"} Unpublished Works
+          %ul.dropdown
+            %li
+              %label Artwork
+            %li
+              %a{href: "/sketches"} Sketches
+            %li
+              %a{href: "/whiteboard"} Whiteboard
+            %li.divider
+            %li
+              %label Writing
+            %li
+              %a{href: "/novel1"} Novel #1
+            /%li
+            /  %a{href: "#"} Novel #2
+            -#%li.divider
+            -#%li
+            -#  %label Apps
+        %li.divider
+        %li.has-dropdown
+          %a{href: "#"} About
+          %ul.dropdown
+            %li
+              %a{href: "/pdfs/resume.pdf"} R&eacute;sum&eacute;
+            %li
+              %a{href: "/pdfs/cv.pdf"} Curriculum Vitae
+            /%li
+            /  %a{href: "#{}"} Press
+            /%li
+            /  %a{href: "#{}"} Reviews
+            /May not want to do this because I sound like ass
+            %li.divider
+            %li.has-dropdown
+              %a{href: "#"} Athletics
+              %ul.dropdown
+                %li
+                  %a{href: "/running"} Running
+                %li
+                  %a{href: "/lifting"} Lifting
+                %li
+                  %a{href: "/swimming"} Swimming
+            /%li
+            /  %a{href: "#"} Top 10's
+  / End Top Bar
