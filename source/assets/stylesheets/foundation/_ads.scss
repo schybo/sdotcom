@@ -1,8 +1,9 @@
-.d_content_top {
+.a_content_top {
 	width:100%;
-	height: 20em;
-	background: url('/assets/images/bg-free1.png') repeat top left;
-	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important; 
+	height: 10em;
+	background: #0E6569;
+	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	border-bottom: 2px solid #ccc; 
 	p { 
 		padding: 0 0 0 0;
 		margin: 0 0 0 0;
@@ -11,29 +12,29 @@
 	//border: 1px solid black;
 }
 
-.d_learn_more {
+.a_learn_more {
 	position: relative;
 	right: 10%;
 }
 
-.dr_learn_more {
+.ar_learn_more {
 	position: relative;
 	right: 5%;
 }
 
-.d_body_title {
+.a_body_title {
 	color: $white;
 	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
-	top: 1%;
-	width: 100%;
+	top: 13%;
+	width: 1000px;
 	height: 1.2em;
 	//border: 1px solid $black;
-	text-align: center;
+	text-align: left;
 	font-weight: 800;
-	font-size: 7em;
+	font-size: 3em;
 	//text-shadow: 3px 3px #ff0000;
 	text-shadow: 3px 3px 2px #000;
 	p {
@@ -42,28 +43,31 @@
 	}
 }
 
-.d_body_sub_head {
+// Img shadow
+
+.a_body_sub_head {
 	color: $white;
 	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	position: relative;
-	top: 2%;
-	width: 100%;
+	top: 16%;
+	width: 1000px;
 	height: auto;
 	//text-shadow: 3px 3px #ff0000;
 	text-shadow: 3px 3px 2px #000;
 	//border: 1px solid $black;
-	text-align: center;
+	text-align: left;
 	font-weight: 700;
-	font-size: 3em;
+	font-size: 1.5em;
 }
 
-.d_body_cta {
+.a_body_cta {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
-	top: 5%;
+	top: -25%;
+	left: 25%;
 	width: auto;
 	//border: 1px solid $black;
 	text-align: center;
@@ -71,87 +75,87 @@
 }
 
 /*------ Breakpoint #1 For Bottom Header ------*/
-@media only screen and (max-width: 1000px) {
-	.d_body_title {
+@media only screen and (max-width: 915px) {
+	.a_body_title {
 		font-size: 5.5em;
 		top: 2%;
 	}
-	.d_body_sub_head {
+	.a_body_sub_head {
 		font-size: 2.5em;
 		top: 3%;
 	}
-	.d_body_cta {
+	.a_body_cta {
 		top: 5%;
 	}
-	.d_content_top {
+	.a_content_top {
 		height: 17em;
 	}
-	.d_learn_more,
-	.dr_learn_more {
+	.a_learn_more,
+	.ar_learn_more {
 		display: none
 	}
 }
 /*------ Breakpoint #1 For Top Header ------*/
-@media only screen and (max-width: 785px) {
-	.d_content_top {
+@media only screen and (max-width: 720px) {
+	.a_content_top {
 		height: 16em;
 	}
-	.d_body_title {
+	.a_body_title {
 		font-size: 5em;
 		top: 5%;
 	}
-	.d_body_sub_head {
+	.a_body_sub_head {
 		font-size: 2em;
 		top: 11%;
 	}
-	.d_body_cta {
+	.a_body_cta {
 		top: 15%;
 	}
 }
 
 /*------ Breakpoint #2 For Bottom Header ------*/
-@media only screen and (max-width: 710px) {
-	.d_content_top {
+@media only screen and (max-width: 660px) {
+	.a_content_top {
 		height: 15em;
 	}
-	.d_body_title {
+	.a_body_title {
 		font-size: 4em;
 		top: 10%;
 	}
-	.d_body_sub_head {
+	.a_body_sub_head {
 		font-size: 1.5em;
 		top: 11%;
 	}
-	.d_body_cta {
+	.a_body_cta {
 		top: 15%;
 	}
 }
 
 /*------ Breakpoint #2 For Top Header ------*/
-@media only screen and (max-width: 575px) {
-	.d_content_top {
+@media only screen and (max-width: 540px) {
+	.a_content_top {
 		height: 11em;
 	}
-	.d_body_title {
+	.a_body_title {
 		font-size: 3em;
 		top: 5%;
 	}
-	.d_body_sub_head {
+	.a_body_sub_head {
 		font-size: 1em;
 		top: 7%;
 	}
-	.d_body_cta {
+	.a_body_cta {
 		top: 8%;
 		margin-top: 0.8em;
 	}
 }
 
 /*------ Breakpoint #2 For Top Header ------*/
-@media only screen and (max-width: 430px) {
-	.d_content_top {
+@media only screen and (max-width: 540px) {
+	.a_content_top {
 		height: 10em;
 	}
-	.d_body_title {
+	.a_body_title {
 		font-size: 2.25em;
 		top: 5%;
 	}
