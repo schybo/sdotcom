@@ -1,7 +1,7 @@
-.wd_content_top {
+.d_content_top {
 	width:100%;
 	height: 20em;
-	background: url('/assets/images/bg-free2.png') repeat top left;
+	background: url('/assets/images/bg-free1.png') repeat top left;
 	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important; 
 	p { 
 		padding: 0 0 0 0;
@@ -11,17 +11,17 @@
 	//border: 1px solid black;
 }
 
-.wd_learn_more {
+.d_learn_more {
 	position: relative;
 	right: 10%;
 }
 
-.wdr_learn_more {
+.dr_learn_more {
 	position: relative;
 	right: 5%;
 }
 
-.wd_body_title {
+.d_body_title {
 	color: $white;
 	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
 	margin-left: auto;
@@ -42,7 +42,7 @@
 	}
 }
 
-.wd_body_sub_head {
+.d_body_sub_head {
 	color: $white;
 	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
 	margin-left: auto;
@@ -59,7 +59,7 @@
 	font-size: 3em;
 }
 
-.wd_body_cta {
+.d_body_cta {
 	margin-left: auto;
 	margin-right: auto;
 	position: relative;
@@ -72,75 +72,75 @@
 
 /*------ Breakpoint #1 For Bottom Header ------*/
 @media only screen and (max-width: 915px) {
-	.wd_body_title {
+	.d_body_title {
 		font-size: 5.5em;
 		top: 2%;
 	}
-	.wd_body_sub_head {
+	.d_body_sub_head {
 		font-size: 2.5em;
 		top: 3%;
 	}
-	.wd_body_cta {
+	.d_body_cta {
 		top: 5%;
 	}
-	.wd_content_top {
+	.d_content_top {
 		height: 17em;
 	}
-	.wd_learn_more,
-	.wdr_learn_more {
+	.d_learn_more,
+	.dr_learn_more {
 		display: none
 	}
 }
 /*------ Breakpoint #1 For Top Header ------*/
 @media only screen and (max-width: 720px) {
-	.wd_content_top {
+	.d_content_top {
 		height: 16em;
 	}
-	.wd_body_title {
+	.d_body_title {
 		font-size: 5em;
 		top: 5%;
 	}
-	.wd_body_sub_head {
+	.d_body_sub_head {
 		font-size: 2em;
 		top: 11%;
 	}
-	.wd_body_cta {
+	.d_body_cta {
 		top: 15%;
 	}
 }
 
 /*------ Breakpoint #2 For Bottom Header ------*/
 @media only screen and (max-width: 660px) {
-	.wd_content_top {
+	.d_content_top {
 		height: 15em;
 	}
-	.wd_body_title {
+	.d_body_title {
 		font-size: 4em;
 		top: 10%;
 	}
-	.wd_body_sub_head {
+	.d_body_sub_head {
 		font-size: 1.5em;
 		top: 11%;
 	}
-	.wd_body_cta {
+	.d_body_cta {
 		top: 15%;
 	}
 }
 
 /*------ Breakpoint #2 For Top Header ------*/
 @media only screen and (max-width: 540px) {
-	.wd_content_top {
+	.d_content_top {
 		height: 11em;
 	}
-	.wd_body_title {
+	.d_body_title {
 		font-size: 3em;
 		top: 5%;
 	}
-	.wd_body_sub_head {
+	.d_body_sub_head {
 		font-size: 1em;
 		top: 7%;
 	}
-	.wd_body_cta {
+	.d_body_cta {
 		top: 8%;
 		margin-top: 0.8em;
 	}
@@ -148,10 +148,10 @@
 
 /*------ Breakpoint #2 For Top Header ------*/
 @media only screen and (max-width: 540px) {
-	.wd_content_top {
+	.d_content_top {
 		height: 10em;
 	}
-	.wd_body_title {
+	.d_body_title {
 		font-size: 2.25em;
 		top: 5%;
 	}

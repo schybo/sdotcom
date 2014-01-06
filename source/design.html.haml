@@ -1,0 +1,65 @@
+/ Lifting
+/\---
+/title: Brent Scheibelhut - Designer. Hacker. Artist. Writer. Athlete.
+/page_description: Freelance design for graphics, videos, blog syndication, responsive websites, IT support
+/social:video
+/\---
+/ Injuries
+
+.d_content_top
+  .d_body_title
+    %p Gorgeous Graphic Design
+  .d_body_sub_head
+    %p Upgrade Your Campaign With a Professional Feel
+  .d_body_cta
+    /*%a.button.open{href: "#"} Contact Info*/
+    %a.button.left_cta{"data-reveal-id" => "myModal", href: "#"} Contact Info
+    %a.button.right_cta{"data-reveal-id" => "freeForm", href: "#"} Freelance Work
+
+.body_content_bottom
+  .section_left
+    %a{href: "http://work.com/blog"}
+      %img.section_left_img{src:'assets/images/design_prof.gif', height: "350px", width: "450px"}
+    .section_left_text
+      %h2 Personalized Designs
+      %ul
+        %li Enhance website with professional quality & personalized image 
+        %li Completely overhaul site design to engage audience
+        %li Wide variety of options - Possibilities are endless
+      /.wd_learn_more
+      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
+
+
+  .section_left.non_mobile_right
+    .section_left_text
+      %h2 Engaging Advertisments
+      %ul
+        %li Numerous Breakpoints - Serves all devices (mobiel & portrait)
+        %li Unchanged design - worked with difficult original framework to retain feel
+        %li Each page unique - due to constraints of original design
+      /%a.button.small.wdr_learn_more{href: "#"} Learn More &gt;&gt;
+    %a{href: "http://www.verdugosbeachresort.com/"}
+      %img.section_left_img{src:'assets/images/design_ad2.gif', height: "350px", width: "450px"}
+  .section_left.mobile_right
+    %a{href: "http://www.verdugosbeachresort.com/"}
+      %img.section_left_img{src:'assets/images/design_ad2.gif', height: "350px", width: "450px"}
+    .section_left_text
+      %h2 Engaging Advertisments
+      %ul
+        %li Numerous Breakpoints - Serves all devices (mobiel & portrait)
+        %li Unchanged design - worked with difficult original framework to retain feel
+        %li Each page unique - due to constraints of original design
+      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
+
+  .section_left.no_border_bottom
+    %img.section_left_img{src:'assets/images/logos.gif', height: "350px", width: "450px"}
+    .section_left_text
+      %h2 Amazing Logos
+      %ul
+        %li Memorable, distinctive logos that create brand awareness
+        %li Created in a wide variety of formats for multiples uses
+        %li Extremely useful for social media &  for engaging audiences
+      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
+
+= partial 'freelance_form'
+= partial 'contact_info'
