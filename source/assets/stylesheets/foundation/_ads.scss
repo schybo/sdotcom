@@ -22,6 +22,15 @@
 	right: 5%;
 }
 
+.img_shadow {
+	-webkit-box-shadow: #cccccc 0 0 20px 0;
+	-moz-box-shadow: #cccccc 0 0 20px 0;
+	box-shadow: #cccccc 0 0 20px 0;
+}
+
+//UX DESIGN POINT OUT FOR DESIGN
+//Fast Pace environment
+
 .a_body_title {
 	color: $white;
 	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
@@ -74,21 +83,30 @@
 	font-weight: 700;
 }
 
+.a_right_cta {
+	margin-left: 1.5em;
+}
+
+.a_left_cta {
+	margin-right: 1.5em;
+}
+
+.spacer {
+	width: 100%;
+	height: 5em;
+}
+
 /*------ Breakpoint #1 For Bottom Header ------*/
-@media only screen and (max-width: 915px) {
+@media only screen and (max-width: 1050px) {
 	.a_body_title {
-		font-size: 5.5em;
-		top: 2%;
+		width: 750px;
 	}
 	.a_body_sub_head {
-		font-size: 2.5em;
-		top: 3%;
+		width: 750px;
 	}
 	.a_body_cta {
-		top: 5%;
 	}
 	.a_content_top {
-		height: 17em;
 	}
 	.a_learn_more,
 	.ar_learn_more {
@@ -96,57 +114,79 @@
 	}
 }
 /*------ Breakpoint #1 For Top Header ------*/
-@media only screen and (max-width: 720px) {
-	.a_content_top {
-		height: 16em;
-	}
+@media only screen and (max-width: 800px) {
 	.a_body_title {
-		font-size: 5em;
-		top: 5%;
+		width: 650px;
 	}
 	.a_body_sub_head {
-		font-size: 2em;
-		top: 11%;
+		width: 650px;
 	}
 	.a_body_cta {
-		top: 15%;
+		left: 30%;
+	}
+	.a_content_top {
+	}
+	.a_left_cta {
+		padding: 10px;
+		margin-right: 0.5em;
+	}
+	.a_right_cta {
+		padding: 10px;
+		margin-left: 0.5em;
 	}
 }
 
 /*------ Breakpoint #2 For Bottom Header ------*/
-@media only screen and (max-width: 660px) {
-	.a_content_top {
-		height: 15em;
-	}
+@media only screen and (max-width: 685px) {
 	.a_body_title {
-		font-size: 4em;
-		top: 10%;
+		top: 20%;
+		font-size: 2em;
+		width: 500px;
 	}
 	.a_body_sub_head {
-		font-size: 1.5em;
-		top: 11%;
+		top: 23%;
+		font-size: 1em;
+		width: 500px;
 	}
 	.a_body_cta {
-		top: 15%;
+		top: -15%;
+		left: 27%;
+	}
+	.a_content_top {
+		height: 8em;
 	}
 }
 
 /*------ Breakpoint #2 For Top Header ------*/
-@media only screen and (max-width: 540px) {
-	.a_content_top {
-		height: 11em;
-	}
+@media only screen and (max-width: 545px) {
 	.a_body_title {
-		font-size: 3em;
-		top: 5%;
+		top: 20%;
+		font-size: 1.5em;
+		width: 300px;
+		//border: 1px solid black;
+		text-align: center;
 	}
 	.a_body_sub_head {
+		top: 9%;
 		font-size: 1em;
-		top: 7%;
+		width: 300px;
+		//border: 1px solid black;
+		text-align: center;
 	}
 	.a_body_cta {
-		top: 8%;
-		margin-top: 0.8em;
+		margin-top: 1.8em;
+		position: static;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.a_content_top {
+		height: 8em;
+	}
+	.a_left_cta {
+		padding: 7px;
+	}
+	.a_right_cta {
+		padding: 7px;
 	}
 }
 

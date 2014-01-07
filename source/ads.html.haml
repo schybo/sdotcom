@@ -6,6 +6,8 @@
 /\---
 / Injuries
 
+//Menu isn't working on this page
+
 .a_content_top
   .a_body_title
     %p Advertisements to Date
@@ -13,50 +15,28 @@
     %p Upgrade Your Campaign With a Professional Feel
   .a_body_cta
     /*%a.button.open{href: "#"} Contact Info*/
-    %a.button.left_cta{"data-reveal-id" => "myModal", href: "#"} Contact Info
-    %a.button.right_cta{"data-reveal-id" => "freeForm", href: "#"} Freelance Work
+    %a.button.a_left_cta{"data-reveal-id" => "myModal", href: "#"} Contact Info
+    %a.button.a_right_cta{"data-reveal-id" => "freeForm", href: "#"} Freelance Work
 
-.body_content_bottom
-  .section_left
-    %img.section_left_img{src:'assets/images/design_prof.gif', height: "350px", width: "450px"}
-    .section_left_text
-      %h2 Personalized Designs
-      %ul
-        %li Enhance website with professional quality & personalized image 
-        %li Completely overhaul site design to engage audience
-        %li Wide variety of options - Possibilities are endless
-      /.wd_learn_more
-      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
-
-
-  .section_left.non_mobile_right
-    .section_left_text
-      %h2 Engaging Advertisments
-      %ul
-        %li Numerous Breakpoints - Serves all devices (mobiel & portrait)
-        %li Unchanged design - worked with difficult original framework to retain feel
-        %li Each page unique - due to constraints of original design
-      /%a.button.small.wdr_learn_more{href: "#"} Learn More &gt;&gt;
-    %img.section_left_img{src:'assets/images/design_ad2.gif', height: "350px", width: "450px"}
-  .section_left.mobile_right
-    %img.section_left_img{src:'assets/images/design_ad2.gif', height: "350px", width: "450px"}
-    .section_left_text
-      %h2 Engaging Advertisments
-      %ul
-        %li Numerous Breakpoints - Serves all devices (mobiel & portrait)
-        %li Unchanged design - worked with difficult original framework to retain feel
-        %li Each page unique - due to constraints of original design
-      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
-
-  .section_left.no_border_bottom
-    %img.section_left_img{src:'assets/images/logos.gif', height: "350px", width: "450px"}
-    .section_left_text
-      %h2 Amazing Logos
-      %ul
-        %li Memorable, distinctive logos that create brand awareness
-        %li Created in a wide variety of formats for multiples uses
-        %li Extremely useful for social media &  for engaging audiences
-      /%a.button.small.wd_learn_more{href: "#"} Learn More &gt;&gt;
+.row.spacer
+.row.space_bottom.border_bottom
+  %a.th.radius.fancybox{href: "assets/images/advertise/ad_online.jpg", rel: "gallery", title: "Ad In Action"}
+    %img{src: "assets/images/advertise/df_work.jpg", height: "200px", width: "300px"}/
+  %a.th.radius.fancybox{href: "assets/images/advertise/new_hor_rec2.jpg", rel: "gallery", title: "Wide Version #1"}
+    %img{src: "assets/images/advertise/new_hor_rec2.jpg", height: "200px", width: "540px"}/
+  %a.th.radius.fancybox{href: "assets/images/advertise/new_hor_rect.jpg", rel: "gallery", title: "Wide Version #2"}
+    %img{src: "assets/images/advertise/new_hor_rect.jpg", height: "200px", width: "540px"}/
+  %a.th.radius.fancybox{href: "assets/images/advertise/new_sqr.jpg", rel: "gallery", title: "Cowboy"}
+    %img{src: "assets/images/advertise/new_sqr.jpg", height: "200px", width: "300px"}/
+  %a.th.radius.fancybox{href: "assets/images/advertise/new_sqr2.jpg", rel: "gallery", title: "Cyclopes"}
+    %img{src: "assets/images/advertise/new_sqr2.jpg", height: "200px", width: "300px"}/
+  %a.th.radius.fancybox{href: "assets/images/advertise/new_vert_rect.jpg", rel: "gallery", title: "Ducks"}
+    %img{src: "assets/images/advertise/new_vert_rect.jpg", height: "177px", width: "177px"}/
+  /
+    %a.th.radius.fancybox{href: "assets/images/advertise/original.jpg", rel: "gallery", title: "Elephant"}
+      %img{src: "assets/images/advertise/original.jpg", height: "177px", width: "300px"}/
+  %a.th.radius.fancybox{href: "assets/images/advertise/drive_pipe.jpg", rel: "gallery", title: "Elephant"}
+    %img{src: "assets/images/advertise/drive_pipe.jpg", height: "177px", width: "300px"}/
 
 = partial 'freelance_form'
 = partial 'contact_info'
