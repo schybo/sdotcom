@@ -19,23 +19,27 @@
     %a.button.a_right_cta{"data-reveal-id" => "freeForm", href: "#"} Freelance Work
 
 .row.spacer
-.row.space_bottom.border_bottom
+.row.space_bottom.border_bottom.padding
   %a.th.radius.fancybox{href: "assets/images/advertise/ad_online.jpg", rel: "gallery", title: "Ad In Action"}
     %img{src: "assets/images/advertise/df_work.jpg", height: "200px", width: "300px"}/
   %a.th.radius.fancybox{href: "assets/images/advertise/new_hor_rec2.jpg", rel: "gallery", title: "Wide Version #1"}
     %img{src: "assets/images/advertise/new_hor_rec2.jpg", height: "200px", width: "540px"}/
   %a.th.radius.fancybox{href: "assets/images/advertise/new_hor_rect.jpg", rel: "gallery", title: "Wide Version #2"}
     %img{src: "assets/images/advertise/new_hor_rect.jpg", height: "200px", width: "540px"}/
-  %a.th.radius.fancybox{href: "assets/images/advertise/new_sqr.jpg", rel: "gallery", title: "Cowboy"}
+  %a.th.radius.fancybox{href: "assets/images/advertise/new_sqr.jpg", rel: "gallery", title: "Box Version #1"}
     %img{src: "assets/images/advertise/new_sqr.jpg", height: "200px", width: "300px"}/
-  %a.th.radius.fancybox{href: "assets/images/advertise/new_sqr2.jpg", rel: "gallery", title: "Cyclopes"}
+  %a.th.radius.fancybox{href: "assets/images/advertise/new_sqr2.jpg", rel: "gallery", title: "Box Version #2"}
     %img{src: "assets/images/advertise/new_sqr2.jpg", height: "200px", width: "300px"}/
-  %a.th.radius.fancybox{href: "assets/images/advertise/new_vert_rect.jpg", rel: "gallery", title: "Ducks"}
-    %img{src: "assets/images/advertise/new_vert_rect.jpg", height: "177px", width: "177px"}/
+  .a_visible
+    %a.th.radius.fancybox{href: "assets/images/advertise/new_vert_rect.jpg", rel: "gallery", title: "Login Page"}
+      %img{src: "assets/images/advertise/new_vert_rect.jpg", height: "177px", width: "177px"}/
+  .a_no_visible
+    %a.th.radius.fancybox{href: "assets/images/advertise/new_vert_rect.jpg", rel: "gallery", title: "Login Page"}
+      %img{src: "assets/images/advertise/new_vert_rect.jpg", height: "500px", width: "300px"}/
   /
-    %a.th.radius.fancybox{href: "assets/images/advertise/original.jpg", rel: "gallery", title: "Elephant"}
+    %a.th.radius.fancybox{href: "assets/images/advertise/original.jpg", rel: "gallery", title: "Old Ad Redesigned"}
       %img{src: "assets/images/advertise/original.jpg", height: "177px", width: "300px"}/
-  %a.th.radius.fancybox{href: "assets/images/advertise/drive_pipe.jpg", rel: "gallery", title: "Elephant"}
+  %a.th.radius.fancybox{href: "assets/images/advertise/drive_pipe.jpg", rel: "gallery", title: "Original Ad"}
     %img{src: "assets/images/advertise/drive_pipe.jpg", height: "177px", width: "300px"}/
 
 = partial 'freelance_form'
