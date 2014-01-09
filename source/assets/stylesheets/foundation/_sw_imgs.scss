@@ -1,0 +1,250 @@
+.simg_content_top {
+	width:100%;
+	height: 10em;
+	background: #5E00EB;
+	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	border-bottom: 2px solid #ccc; 
+	p { 
+		padding: 0 0 0 0;
+		margin: 0 0 0 0;
+		font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	}
+	//border: 1px solid black;
+}
+
+.simg_learn_more {
+	position: relative;
+	right: 10%;
+}
+
+.simgr_learn_more {
+	position: relative;
+	right: 5%;
+}
+
+.sw_margin {
+	margin: 10px !important;
+}
+
+.simg_shadow {
+	-webkit-box-shadow: #cccccc 0 0 20px 0;
+	-moz-box-shadow: #cccccc 0 0 20px 0;
+	box-shadow: #cccccc 0 0 20px 0;
+}
+
+.top-orbit .orbit-container {
+	width: 560px;
+	height: 365px;
+	margin: 3em auto 3em auto;
+}
+
+.top-2-orbit .orbit-container {
+	display: none;
+	width: 300px;
+	height: 196px;
+	margin: 3em auto 3em auto;
+}
+
+.bottom-orbit .orbit-container {
+	width: 300px;
+	height: 450px;
+	margin: 0 auto 3em auto;
+}
+//UX DESIGN POINT OUT FOR DESIGN
+//Fast Pace environment
+
+.simg_body_title {
+	color: $white;
+	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 13%;
+	width: 1000px;
+	height: 1.2em;
+	//border: 1px solid $black;
+	text-align: left;
+	font-weight: 800;
+	font-size: 3em;
+	//text-shadow: 3px 3px #ff0000;
+	text-shadow: 3px 3px 2px #000;
+	p {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+}
+
+// Img shadow
+
+.simg_body_sub_head {
+	color: $white;
+	font-family: 'Hardwood', "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	top: 16%;
+	width: 1000px;
+	height: auto;
+	//text-shadow: 3px 3px #ff0000;
+	text-shadow: 3px 3px 2px #000;
+	//border: 1px solid $black;
+	text-align: left;
+	font-weight: 700;
+	font-size: 1.5em;
+}
+
+.simg_body_cta {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	top: -25%;
+	left: 25%;
+	width: 400px;
+	//border: 1px solid $black;
+	text-align: center;
+	font-weight: 700;
+}
+
+.simg_right_cta {
+	margin-left: 1.5em;
+}
+
+.simg_left_cta {
+	margin-right: 1.5em;
+}
+
+.spacer {
+	width: 100%;
+	height: 5em;
+}
+
+.padding {
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*------ Breakpoint #1 For Bottom Header ------*/
+@media only screen and (max-width: 1050px) {
+	.simg_body_title {
+		width: 750px;
+	}
+	.simg_body_sub_head {
+		width: 750px;
+	}
+	.simg_body_cta {
+		left: 30%;
+	}
+	.simg_content_top {
+	}
+	.simg_learn_more,
+	.ar_learn_more {
+		display: none
+	}
+	.simg_right_cta {
+		margin-left: 0.5em;
+	}
+	.simg_left_cta {
+		margin-right: 0.5em;
+	}
+}
+/*------ Breakpoint #1 For Top Header ------*/
+@media only screen and (max-width: 800px) {
+	.simg_body_title {
+		top: 20%;
+		width: 650px;
+		font-size: 2.5em;
+	}
+	.simg_body_sub_head {
+		top: 23%;
+		width: 650px;
+		font-size: 1.25em;
+	}
+	.simg_body_cta {
+		left: 30%;
+		top: -12%;
+	}
+	.simg_content_top {
+	}
+	.simg_left_cta {
+		padding: 10px;
+		margin-right: 0.5em;
+	}
+	.simg_right_cta {
+		padding: 10px;
+		margin-left: 0.5em;
+	}
+}
+
+/*------ Breakpoint #2 For Bottom Header ------*/
+@media only screen and (max-width: 685px) {
+	.simg_body_title {
+		top: 25%;
+		font-size: 1.75em;
+		width: 500px;
+	}
+	.simg_body_sub_head {
+		top: 28%;
+		font-size: 0.8em;
+		width: 500px;
+	}
+	.simg_body_cta {
+		top: -7%;
+		left: 27%;
+	}
+	.simg_content_top {
+		height: 8em;
+	}
+	.spacer {
+		height: 2.5em;
+	}
+	.simg_left_cta {
+		padding: 8px;
+		margin-right: 0.25em;
+	}
+	.simg_right_cta {
+		padding: 8px;
+		margin-left: 0.25em;
+	}
+}
+
+/*------ Breakpoint #2 For Top Header ------*/
+@media only screen and (max-width: 545px) {
+	.simg_body_title {
+		top: 10%;
+		font-size: 2.05em;
+		width: 310px;
+		//border: 1px solid black;
+		text-align: center;
+	}
+	.simg_body_sub_head {
+		top: 13%;
+		font-size: 1em;
+		width: 310px;
+		//border: 1px solid black;
+		text-align: center;
+	}
+	.simg_body_cta {
+		width: 200px;
+		margin-top: 2.5em;
+		position: static;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.simg_left_cta {
+		padding: 7px;
+	}
+	.simg_right_cta {
+		padding: 7px;
+	}
+	.simg_content_top {
+		height: 10em;
+	}
+	.top-orbit {
+		display: none;
+	}
+	.top-2-orbit .orbit-container {
+		display: block;
+	}
+}
+
+
