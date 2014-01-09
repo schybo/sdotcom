@@ -40,13 +40,15 @@
 .flexslider {
   margin: 0;
   padding: 0;
+  height: 390px;
+  width: 50%;
   .slides {
     > li {
       display: none;
       -webkit-backface-visibility: hidden;
     }
     img {
-      width: 100%;
+      width: 600px;
       display: block;
     }
   }
@@ -227,6 +229,7 @@ html[xmlns] .slides {
   text-align: center;
   li {
     margin: 0 6px;
+    height:100px;
     display: inline-block;
     zoom: 1;
     *display: inline;
