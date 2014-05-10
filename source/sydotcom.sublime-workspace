@@ -1,0 +1,251 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"b",
+				"Brent"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"",
+				"Package Control: Upgrade Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/brentscheibelhut/Documents/sydotcom/source/web_design.html.haml",
+		"/Users/brentscheibelhut/Documents/sydotcom/source/_darkcloud.html.haml",
+		"/Users/brentscheibelhut/Music/cool",
+		"/Users/brentscheibelhut/Documents/Winter_2014/CS246/assignments/a1/runSuite",
+		"/Users/brentscheibelhut/Music/stream[0].json",
+		"/Users/brentscheibelhut/Downloads/addon-sdk-1.15/examples/reddit-panel/README.md",
+		"/Users/brentscheibelhut/Downloads/addon-sdk-1.15/examples/annotator/lib/main.js",
+		"/Users/brentscheibelhut/Downloads/addon-sdk-1.15/examples/annotator/README.md",
+		"/Users/brentscheibelhut/Downloads/80771 (1).user.js",
+		"/Users/brentscheibelhut/Documents/example.js",
+		"/Users/brentscheibelhut/Documents/WatrHub/index.php",
+		"/Users/brentscheibelhut/Documents/WatrHub/timeline_response.php",
+		"/Users/brentscheibelhut/Documents/sydotcom/source/_freelance_form.html.haml",
+		"/Users/brentscheibelhut/Documents/sydotcom/source/whiteboard.html.haml",
+		"/Users/brentscheibelhut/Documents/dave_fish_site/report.php",
+		"/Users/brentscheibelhut/Documents/easy-badge/index.php",
+		"/Users/brentscheibelhut/Documents/easy-badge/crop_web.php",
+		"/Users/brentscheibelhut/Documents/easy-badge/css/main.css",
+		"/Users/brentscheibelhut/Documents/dave_fish_site/html-head.inc",
+		"/Users/brentscheibelhut/Documents/dave_fish_site/index.php",
+		"/Users/brentscheibelhut/Documents/dave_fish_site/main-menu.inc",
+		"/Users/brentscheibelhut/Documents/dave_fish_site/.git/MERGE_MSG",
+		"/Users/brentscheibelhut/Documents/sydotcom/source/assets/stylesheets/foundation/_slider.scss",
+		"/Users/brentscheibelhut/Documents/sydotcom/source/layouts/layout.haml",
+		"/Users/brentscheibelhut/Documents/sydotcom/source/404.html.erb",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/config.ru",
+		"/Users/brentscheibelhut/Documents/sdotcom/package.json",
+		"/Users/brentscheibelhut/Documents/sydotcom/config.ru",
+		"/Users/brentscheibelhut/Documents/sdotcom/web.js",
+		"/Users/brentscheibelhut/Documents/railsproject/blog/app/views/posts/edit.html.erb",
+		"/Users/brentscheibelhut/Documents/railsproject/blog/app/views/welcome/index.html.erb",
+		"/Users/brentscheibelhut/Desktop/Rent & Stoofs",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/source/assets/stylesheets/foundation.css",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/source/assets/stylesheets/scss/foundation.scss",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/source/assets/stylesheets/site.css.sass",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/source/assets/javascripts/site.js",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/source/index.html",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/source/stylesheets/all.css",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/source/javascripts/all.js",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/data/meta_social.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/data/webinars.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/data/team.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/data/resources.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/data/press.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/data/meta_social.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/data/GeoIP.dat",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/data/associations.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/staging/config.ru",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/heroku.yml",
+		"/Users/brentscheibelhut/Documents/sdotcom/node_modules/express/lib/router/index.js",
+		"/Users/brentscheibelhut/Documents/sdotcom/node_modules/express/lib/application.js",
+		"/Users/brentscheibelhut/Documents/sdotcom/node_modules/express/index.js",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/app.rb",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/Rakefile",
+		"/Users/brentscheibelhut/Documents/Staging-example/workdotcom-staging/config.rb",
+		"/Users/brentscheibelhut/Documents/sdotcom/README.md",
+		"/Users/brentscheibelhut/Documents/sdotcom/.git/MERGE_MSG",
+		"/Users/brentscheibelhut/Documents/sdotcom/index.html",
+		"/Users/brentscheibelhut/Documents/sdotcom/foundation-4.3.1.custom/css/foundation.css",
+		"/Users/brentscheibelhut/Documents/Blog_First_Draft/ss_cp.html",
+		"/Users/brentscheibelhut/Documents/Blog_First_Draft/style.css",
+		"/Users/brentscheibelhut/Documents/Blog_First_Draft/album3.html",
+		"/Users/brentscheibelhut/Documents/Blog_First_Draft/album2.html",
+		"/Users/brentscheibelhut/Documents/Blog_First_Draft/album1.html",
+		"/Users/brentscheibelhut/Documents/Blog_First_Draft/album0.html",
+		"/Users/brentscheibelhut/Documents/TestGit/.git/COMMIT_EDITMSG",
+		"/Users/brentscheibelhut/test.txt",
+		"/Users/brentscheibelhut/Documents/TestGit/test1.txt.orig",
+		"/Users/brentscheibelhut/Pictures/points.rkt"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"hypen",
+			"btn",
+			"page-header",
+			"page1",
+			"title",
+			"header",
+			"carou",
+			"js",
+			"ss1",
+			"ss2"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"hyphen",
+			"javascripts"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "sydotcom.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -20,10 +20,12 @@
         + ('__proto__' in {} ? 'zepto' : 'jquery')
         + '.js><\/script>');
 
+    = javascript_include_tag 'http://code.jquery.com/jquery-latest.min.js'
     = javascript_include_tag "foundation.min.js"
     = javascript_include_tag "jquery.pageslide.min.js"
     = javascript_include_tag "vendor/jquery.flexslider-min.js"
     = javascript_include_tag "vendor/fancybox/source/jquery.fancybox.js"
+    = javascript_include_tag "vendor/custom.modernizr.js"  
     %script{src: "//releases.flowplayer.org/5.4.4/flowplayer.min.js"}
 
     :javascript
